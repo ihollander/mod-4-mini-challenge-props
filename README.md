@@ -20,7 +20,7 @@ To get feedback on your code, make a [pull request from your forked repo](https:
 
 ## Assignment
 
-Welcome to The Spice Store! We'll be building an application for displaying information about different spices. (If you're wondering where the ...insteresting... spice descriptions came from - check out spicejungle.com) 
+Welcome to The Spice Store! We'll be building an application for displaying information about different spices. (If you're wondering where the ...interesting... spice descriptions came from - check out spicejungle.com) 
 
 The finished app should look like this:
 
