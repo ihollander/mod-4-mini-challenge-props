@@ -18,7 +18,7 @@ const spices = [
     "description": "A crusty grandmother. She walked fifteen miles to school every day. Uphill! Both ways! In the snow! She’s cantankerous, but then she has those moments where she makes you tea and homemade bread and enlightens you about the little things in life.",
     "notes": "Bitter or Astringent, Sweet"
   },
-  {
+  { 
     "id": 12,
     "title": "Cardamom Pods, Black",
     "image": "https://www.spicejungle.com/pub/media/catalog/product/cache/3db4d5004662ba3673dd7a19a8603593/w/h/whole_black_cardamon.jpg",
@@ -77,8 +77,8 @@ function App() {
   // What props do each of these components expect?
   return (
     <>
-      <Header />
-      <SpiceList />
+      <Header spiceCount={spices.length}/>
+      <SpiceList spices={spices}/>
     </>
   );
 }
