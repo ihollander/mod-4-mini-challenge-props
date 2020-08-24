@@ -3,6 +3,7 @@ import React from 'react'
 // function component (arrow fn syntax)
 const Header = props => {
   // TODO: find a way to get the spiceCount passed down as a prop to this component
+  console.log("length", props)
   return (
     <header>
       <h1>The Spice Store</h1>
