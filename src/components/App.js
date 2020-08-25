@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import SpiceList from './SpiceList';
+import SpiceItem from './SpiceItem';
 
 // spice info taken from spicejungle.com
 const spices = [
@@ -79,6 +80,7 @@ function App() {
     <>
       <Header />
       <SpiceList />
+      {SpiceList.map(list => <SpiceItem key={list.id} list={list} />)}
     </>
   );
 }
