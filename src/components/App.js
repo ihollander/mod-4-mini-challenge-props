@@ -68,19 +68,17 @@ const spices = [
     "notes": "Hot, Smoky"
   },
 ]
+class App extends React.Component {
 
-// function component
-function App() {
-  console.log("Spices:", spices)
-
-  // TODO: pass down props to the components below using the array of spices
-  // What props do each of these components expect?
-  return (
-    <>
-      <Header />
-      <SpiceList />
-    </>
-  );
+    render (){
+      let spiceCount = spices.length
+      return (
+        <div>
+          <Header spiceCount = {spiceCount}/>
+          <SpiceList spices = {spices} />
+        </div>
+      );
+  }
 }
 
 export default App;
